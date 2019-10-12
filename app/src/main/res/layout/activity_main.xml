@@ -20,26 +20,25 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
 
-         >
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
 
-<include layout="@layout/nav_header_main"
-    android:id="@+id/nav_header_main"/>
+            <include
+                android:id="@+id/nav_header_main"
+                layout="@layout/nav_header_main" />
 
-<ListView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_below="@+id/nav_header_main"
-    android:id="@+id/channel_list"
-    >
+            <ListView
+                android:id="@+id/channel_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/nav_header_main">
 
 
-
-</ListView>
+            </ListView>
 
 
         </RelativeLayout>

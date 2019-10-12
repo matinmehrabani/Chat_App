@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="?android:attr/actionBarSize"
+
+    >
+    
+    
+    <LinearLayout
+        android:id="@+id/contact"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+        android:src="@drawable/ic_contacts_black_24dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="0dp">
+            
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:text="Contact"
+            android:layout_marginLeft="32dp">
+
+        </TextView>
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/camera"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="0dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:text="Camera"
+            android:layout_marginLeft="32dp">
+
+        </TextView>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/location"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="0dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:text="Location"
+            android:layout_marginLeft="32dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gallery"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_image_black_24dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="0dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:text="Gallery"
+            android:layout_marginLeft="32dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/audio"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_audiotrack_black_24dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="0dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:text="Audio"
+            android:layout_marginLeft="32dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/more"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_more_horiz_black_24dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="0dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:text="More"
+            android:layout_marginLeft="32dp">
+
+        </TextView>
+    </LinearLayout>
+
+    </LinearLayout>
